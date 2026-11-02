@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: nse-breakout-scanner
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: UPSTOX_ACCESS_TOKEN
+        sync: false
+      - key: UNIVERSE_CSV
+        value: universe.csv

@@ -1,0 +1,4 @@
+symbol,instrument_key,sector
+# Add one row per stock. Use exact Upstox NSE_EQ instrument_key values.
+# Example format only (replace with valid keys from your Upstox instruments file):
+# RELIANCE,NSE_EQ|INE002A01018,Nifty Energy
