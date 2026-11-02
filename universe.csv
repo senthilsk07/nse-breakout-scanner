@@ -1,5 +1,4 @@
 symbol,instrument_key,sector
-# Add one row per stock. Use exact Upstox NSE_EQ instrument_key values.
 HDFCBANK,NSE_EQ|INE040A01034,Nifty Bank
 ICICIBANK,NSE_EQ|INE090A01021,Nifty Bank
 SBIN,NSE_EQ|INE062A01020,Nifty PSU Bank
